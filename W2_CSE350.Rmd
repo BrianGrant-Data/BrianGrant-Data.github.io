@@ -1,0 +1,35 @@
+---
+title: "CSE350 Week 2"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Task 4: Visualizing Large Distributions
+https://byui.instructure.com/courses/134980/pages/task-4-visualizing-large-distributions?module_item_id=17322326
+
+## Load Data
+```{r}
+install.packages("nycflights13")
+install.packages("ggplot2")
+```
+
+
+```{r}
+library(ggplot2)
+library(nycflights13)
+```
+
+## Preview the data
+```{r}
+head(nycflights13::flights)
+?flights
+```
+```{r}
+ggplot(flights) + 
+  geom_point(aes(x=distance, y=air_time))
+```
+
