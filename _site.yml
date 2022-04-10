@@ -1,11 +1,15 @@
 name: "BrianGrant-Data.github.io"
+title: "Brian Grant's GitHub Website"
 output_dir: "."
 navbar:
-  title: "Brian Grant's GitHub Website"
-  left:
+  right:
     - text: "Home"
       href: index.html
     - text: "Articles"
       href: articles.html
     - text: "About"
       href: about.html
+    - icon: fa fa-github
+      href: https://github.com/BrianGrant-Data
+    - icon: fa fa-linkedin
+      href: https://www.linkedin.com/in/brian-grant

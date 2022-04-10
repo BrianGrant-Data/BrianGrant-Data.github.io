@@ -2,8 +2,7 @@
 title: "About This Website"
 ---
 
-The purpose of this website is to share with the world what I have learned in simple and easily navigable manner.
+My name is Brian Grant. I'm a Data Science Major at Brigham Young University - Idaho. 
 
-Here, you'll see techniques for data science that I have learned over the years and I hope that as I attempt to teach from this platform you will learn and do the same. As strange as it might seem, I've found that teaching what you learn to others (especially when done simply) helps **both** parties to learn more than they new before.
+The purpose of this website is to share with the world what I have learned in simple and easily navigable manner. Here, you'll see techniques for data science that I have learned over the years and I hope that as I attempt to teach from this platform you will learn and do the same. As strange as it might seem, I've found that teaching what you learn to others (especially when done simply) helps **both** parties to learn more than they new before.
 
-My name is Brian Grant. I'm a Data Science Major at Brigham Young University - Idaho. You can find my Github repositories at https://github.com/BrianGrant-Data.
