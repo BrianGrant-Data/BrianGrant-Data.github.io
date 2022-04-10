@@ -1,0 +1,45 @@
+---
+title: "Introduction to Virtual Environments"
+author: "Brian Grant"
+date: "`r format(Sys.time(), '%B %d, %Y')`" 
+output: 
+  html_document: 
+    theme: cosmo 
+    keep_md: true 
+    toc: true 
+    toc_float: true 
+    code_folding: hide 
+    fig_height: 6 
+    fig_width: 12 
+    fig_align: 'center'
+---
+
+# Why and What are Virtual Environments?
+
+Imagine that your trying to load someone else's repository into your IDE, but each time you try to run it you keep running into errors about package dependencies. You try fixing it, but you keep running into errors that the person who's repository it belongs to apparently never encountered. This is the kind of problem that I've worked to address with a thing called "virtual environments."
+
+A virtual environment is a little like a virtual machine, but a lot smaller and lighter on processing power. Virtual environments contain both their own set of packages independent of your computer's libraries but it also contains it's own copy of the programming language. For example in this article, I'll be showing you how to use virtual environments with python and the version of python used in the virtual environment might be different than the one I have in my own system directory. 
+
+# How to Set Up a Virtual Environment
+
+We'll use the **venv** module for this demonstration. `venv` is included directly with Python 3, so as long as you have a Python 3 or newer version installed it should already be installed on your computer. You can find documentation on the module on Python's official website (see [here](https://docs.python.org/3/library/venv.html#module-venv) for the official document). 
+
+1) Make sure your current terminal directory is the same as your repositories directory. It should be showing in your terminal, but if your not certain you can run `pwd` in your terminal and it will print out the project directory's location.
+
+2) The `venv` module has a function for creating virtual environments so you will run the following line of code in your terminal to create the virtual environment but replace `/path/to/new/virtual/environment` with `/.venv` if you're not familiar with virtual environments and paths.
+```{}
+py -m venv /path/to/new/virtual/environment #normally you'll put /.venv as the name of the path
+```
+
+3) Once you run that code, you should find that there is a new folder in the first level of your project with the same path name that you replaced `/path/to/new/virtual/environment` with. If so, you've done it! You're now looking at your virtual environment.
+
+4) **Bonus Step**: if you're using git or some other version control software, you might want to add `.venv` (or whatever path you used) to your `.gitignore` file. This way, your not IDE isn't flooded with notices of upstaged changes each time you install a new module into your virtual environment.
+
+# Activating the Virtual 
+
+Now that you have a virtual environment set up in your 
+- closeing it out
+
+- Adding it to the git ignore 
+- Saving the requirements text
+- Loading a requirements text
