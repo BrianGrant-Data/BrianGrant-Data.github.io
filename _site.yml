@@ -1,0 +1,11 @@
+name: "BrianGrant-Data.github.io"
+output_dir: "."
+navbar:
+  title: "Brian Grant's GitHub Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Articles"
+      href: articles.html
+    - text: "About"
+      href: about.html
