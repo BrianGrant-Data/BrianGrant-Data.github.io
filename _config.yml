@@ -8,3 +8,6 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+
+# from https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
+# specifically here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#:~:text=lsi%3A%20false%0Asafe%3A%20true%0Asource%3A%20%5Byour%20repo%27s%20top%20level%20directory%5D%0Aincremental%3A%20false%0Ahighlighter%3A%20rouge%0Agist%3A%0A%20%20noscript%3A%20false%0Akramdown%3A%0A%20%20math_engine%3A%20mathjax%0A%20%20syntax_highlighter%3A%20rouge
