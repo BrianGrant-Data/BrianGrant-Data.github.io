@@ -1,5 +1,5 @@
 ---
-title: "Brian Grant's Github Blog"
+title: "Brian Grant's Github.io"
 ---
 
 Hello, Website! I'm hosted with GitHub Pages.

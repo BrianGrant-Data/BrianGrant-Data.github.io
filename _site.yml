@@ -6,9 +6,9 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Articles"
-      href: articles.html
+      href: _site/articles.html
     - text: "About"
-      href: about.html
+      href: _site/about.html
     - icon: fa fa-github
       href: https://github.com/BrianGrant-Data
     - icon: fa fa-linkedin

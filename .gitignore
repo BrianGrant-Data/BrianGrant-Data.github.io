@@ -1,3 +1,7 @@
+# Misc.
+site_libs/
+_docs/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
